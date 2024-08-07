@@ -2,7 +2,7 @@ package parking.vehicles.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
-import jakarta.validation.constraints.Size;
+
 
 public class VehicleCreateDto {
   @NotBlank

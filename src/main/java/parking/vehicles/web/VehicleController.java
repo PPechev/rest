@@ -1,15 +1,15 @@
 package parking.vehicles.web;
 
-import jakarta.validation.Valid;
+
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
+
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import parking.vehicles.model.dto.VehicleCreateDto;
 import parking.vehicles.model.dto.VehicleEditDto;
 import parking.vehicles.model.dto.VehicleView;
 import parking.vehicles.model.dto.VehicleViewAdmin;
-import parking.vehicles.model.entity.Vehicle;
+
 import parking.vehicles.service.VehicleService;
 
 import java.util.List;
