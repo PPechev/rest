@@ -68,6 +68,7 @@ public class VehicleService {
   public void deleteVehicle(Long id) {
     Vehicle vehicle = this.vehicleRepository.findById(id)
         .orElseThrow(() -> new VehicleNotFoundException("Превозното средство не е намерено!"));
+
     vehicleRepository.delete(vehicle);
   }
   
